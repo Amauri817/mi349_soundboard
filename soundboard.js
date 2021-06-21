@@ -1,7 +1,7 @@
-//alert('Welcome to my website!')
-const sounds = ['applause','ahem'];
+alert('Welcome to my website!');
+const sounds = ['Applause','Ahem', 'Advice', 'Adequetely'];
 
-sounds.forEach((sound) => {
+sounds.forEach(sound => {
     const btn = document.createElement('button');
     btn.classList.add('btn');
 
@@ -16,10 +16,10 @@ sounds.forEach((sound) => {
 });
 
 function stopSongs() {
-    sounds.forEach(sound => {
-        const song = document.getElementById(sound);
+    sounds.forEach((sound) => {
+        const song = document.getElementById(sound)
 
         song.onpause();
         song.currentTime = 0;
-    })
+    });
 }
