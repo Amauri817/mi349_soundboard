@@ -1,5 +1,5 @@
 alert ('Welcome to my website');
-const sounds = ["applause", "boo", "gasp", "tada", "victory", "wrong"];
+const sounds = ["advice", "ahem", "applause", "wrong"];
 
 sounds.forEach((sound) => {
   const btn = document.createElement("button");

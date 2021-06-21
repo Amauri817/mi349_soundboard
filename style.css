@@ -1,6 +1,13 @@
+html {
+    background: black;
+}
+
 body {
     background-color: wheat;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+    padding: 30px;
+    color: #242424;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -8,7 +15,6 @@ body {
     height: 100vh;
     text-align: center;
     overflow: hidden;
-    margin: 0;
 }
 
 .btn {
@@ -22,11 +28,11 @@ body {
     font-family: inherit;
     font-weight: bold;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
-.btn:active {
-    transform: scale(0.8);
-    transform: translate(4px);
-    box-shadow: 0 0 10px white;
+.btn:hover{
+    opacity: 0.5;
+    background-color: green;
+    color: yellow;
 }
