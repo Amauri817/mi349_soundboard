@@ -1,4 +1,4 @@
-alert ('Welcome to my website');
+alert ('Welcome to Amauris Soundboard website');
 const sounds = ["advice", "ahem", "applause", "wrong"];
 
 sounds.forEach((sound) => {
